@@ -11,7 +11,7 @@ use IEEE.numeric_std.all;
 entity twoscomp_decimal is
     port (
         i_binary: in std_logic_vector(7 downto 0);
-        i_sum: in std_logic_vector (8 downto 0);
+       -- i_sum: in std_logic_vector (8 downto 0);
         o_negative: out std_logic_vector (3 downto 0);
         o_hundreds: out std_logic_vector(3 downto 0);
         o_tens: out std_logic_vector(3 downto 0);
